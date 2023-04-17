@@ -95,3 +95,9 @@ const currencies = [
 ];
 
 let currenciesLenth = currencies.length;
+for (let i = 0; i < currenciesLenth; i++) {
+  if (currencies[i].rate > 5) {
+    console.log(currencies[i].code);
+    console.log(currencies[i].rate);
+  }
+}
